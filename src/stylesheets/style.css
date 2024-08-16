@@ -2,6 +2,7 @@
   --bs-body-bg: var(--bs-gray-100);
 }
 
+ /* Partner logo formatting */
 .partner-logo {
     width: 50px;
     height: auto;
@@ -9,6 +10,7 @@
     padding-top: 5px;
 }
 
+ /* Disclaimer formatting */
 .disclaimer {
     font-style: italic;
     font-size: 12px;
