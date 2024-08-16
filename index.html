@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zabbix Community Support</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container my-5">
+        <h1>Zabbix Community Provided Support</h1>
+        <div class="row align-items-start">
+            <div class="col-6">
+                <div role="tabpanel">
+                    <div class="list-group list-group-numbered" id="myList" role="tablist">
+                        <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#entry_1" role="tab">Thou shall not ask stupid questions</a>
+                        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#entry_2" role="tab">First search the internet for yourself, before coming here to ask questions</a>
+                        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#entry_3" role="tab">Be explicit. "I have an error" is not informative</a>
+                        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#entry_4" role="tab">Community support is not free consultancy. We won't do your homework</a>
+                        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#entry_5" role="tab">If you need help, make it as easy as possible for us to help you</a>
+                        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#entry_6" role="tab">A screenshot is not a question</a>
+                        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#entry_7" role="tab">Be polite or be banned. There is no middle ground</a>
+                        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#entry_8" role="tab">We offer support about Zabbix, not Grafana, basic linux, ...</a>
+                        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#entry_9" role="tab">Be patient. SLA's don't apply in community support</a>
+                        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#entry_10" role="tab">If all else fails, get paid support. There are people here who do consultancy and will give you the best service ever</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="tab-content">
+                    <!-- 
+                        Thou shall not ask stupid questions
+                    -->
+                    <div class="tab-pane active" id="entry_1" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Thou shall not ask stupid questions</h5>
+                                <p>
+                                    It is important to be as specific as possible with your questions, otherwise you will likely get ignored.<br /><br /> If you want us to help you, please help us and follow the following guidelines:
+                                    <ul>
+                                        <li>Describe the symptoms of your problem or bug carefully and clearly.</li>
+                                        <li>Describe the environment in which it occurs (machine, OS, application, whatever). Provide your vendor's distribution and release level (e.g.: “Fedora Core 7”, “Slackware 9.1”, etc.).</li>
+                                        <li>Describe the research you did to try and understand the problem before you asked the question.</li>
+                                        <li>Describe the diagnostic steps you took to try and pin down the problem yourself before you asked the question.</li>
+                                        <li>Describe any possibly relevant recent changes in your computer or software configuration.</li>
+                                    </ul>
+                                    If at all possible, provide a way to reproduce the problem in a controlled environment.<br /><br /> Some examples:<br />
+
+                                    <div class="alert alert-danger" role="alert">
+                                        <b><i>Not smart:</i></b>
+                                        <ul>
+                                            <li>HELP! Zabbix does not work!</li>
+                                            <li>My Discovery rule does not work</li>
+                                            <li>Can we monitor $RANDOM-APPLICATION-NAME?</li>
+                                        </ul>
+                                    </div>
+                                    <div class="alert alert-success" role="alert">
+                                        <b><i>Smart:</i></b>
+                                        <ul>
+                                            <li>I have a LLD rule, and getting the following error: $SCREENSHOT. I tried already X Y Z and that does not work. Now i am stuck, who got any suggestions?</li>
+                                            <li>Trying to filter out $SERVICE and created this filter in my LLD rule: $SCREENSHOT but it does not work. Who can spot my mistake?</li>
+                                        </ul>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                        First search the internet for yourself, before coming here to ask questions
+                    -->
+                    <div class="tab-pane" id="entry_2" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">First search the internet for yourself, before coming here to ask questions</h5>
+                                <p>Zabbix has been in development since 2001, and is used by a lot of companies. As such, both the <a href="https://www.zabbix.com/documentation/current/en/manual" target="_blank" rel="noopener noreferrer">Zabbix Documentation</a> as Google provide a wealth of information.</p>
+                                <p>Chances are that your specific question has been asked before, has been documented and probably has been solved.</p>
+                                <p>Nobody likes to repeat themselves, nobody likes to answer the same question over and over. Please read the manual first. Please Google your question first. If both render useless, feel free to ask for support, but ensure you include what you've found and why it didn't work.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                        Be explicit. "I have an error" is not informative
+                    -->
+                    <div class="tab-pane" id="entry_3" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Be explicit. "I have an error" is not informative</h5>
+                                <p>You want something from the community: support.</p>
+                                <p>The least the community may expect from you, is to make it as easy as possible for us to help you. "I have an error" is as if you go to a doctor and say "I have pain".</p>
+                                <p>Though that is an issue that can be solved, it cannot be solved without any further information. Same goes for Zabbix: an error is not informative. As such, please include as many details as possible.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                        Community support is not free consultancy. We won't do your homework
+                    -->
+                    <div class="tab-pane" id="entry_4" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Community support is not free consultancy. We won't do your homework</h5>
+                                <p>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                        If you need help, make it as easy as possible for us to help you
+                    -->
+                    <div class="tab-pane" id="entry_5" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">If you need help, make it as easy as possible for us to help you</h5>
+                                <p>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                        A screenshot is not a question
+                    -->
+                    <div class="tab-pane" id="entry_6" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">A screenshot is not a question</h5>
+                                <p>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                        Be polite or be banned. There is no middle ground
+                    -->
+                    <div class="tab-pane" id="entry_7" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Be polite or be banned. There is no middle ground</h5>
+                                <p>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                        We offer support about Zabbix, not Grafana, basic linux, ...
+                    -->
+                    <div class="tab-pane" id="entry_8" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">We offer support about Zabbix, not Grafana, basic linux, ...</h5>
+                                <p>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                        Be patient. SLA's don't apply in community support
+                    -->
+                    <div class="tab-pane" id="entry_9" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Be patient. SLA's don't apply in community support</h5>
+                                <p>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                        If all else fails, get paid support. There are people here who do consultancy and will give you the best service ever
+                    -->
+                    <div class="tab-pane" id="entry_10" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">If all else fails, get paid support. There are people here who do consultancy and will give you the best service ever</h5>
+                                <p>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start">
+            <div class="col-6">Disclaimer here</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
