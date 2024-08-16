@@ -3,12 +3,15 @@
 }
 
 .partner-logo {
-    width: 75px;
+    width: 50px;
     height: auto;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 
 .disclaimer {
     font-style: italic;
     font-size: 12px;
-    margin: 0 auto; 
+    margin: 0 auto;
+
 }
